@@ -4,9 +4,9 @@
     <a href="#"><img id="image1" src="../../assets/wallpaper.jpg" alt="" /></a>
     <header>
       <div class="container">
-     <div class="logo-container">
+        <div class="logo-container">
           <!-- Website Logo -->
-       <p id="bigname"><strong>Knowledge Base Theme</strong></p>
+          <p id="bigname"><strong>Knowledge Base Theme</strong></p>
           <span class="tag-line">Premium WordPress Theme</span>
         </div>
 
@@ -32,100 +32,14 @@
   <!-- Start of Search Wrapper -->
   <div class="search-area-wrapper">
     <div class="search-area container">
-      <h3 class="search-header">Have a Question?</h3>
-      <p class="search-tag-line">If you have any question you can ask below or enter what you are looking for!</p>
+      <h3 class="search-header">Hello XXX</h3>
+      <p class="search-tag-line">if you need help you can search here</p>
 
       <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
-        <input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" />
-        <input class="search-btn" type="submit" value="Search" />
+        <input class="search-term required" type="text" id="s" name="s" placeholder="search" title="* Please enter a search term!" />
+        <input class="search-btn" type="submit" value="search" />
         <div id="search-error-container"></div>
       </form>
-    </div>
-  </div>
-  <div class="page-container">
-    <div class="container">
-      <div class="row">
-
-        <!-- start of page content -->
-        <div class="span8 page-content">
-
-          <!-- Basic Home Page Template -->
-          <div class="row separator">
-            <section class="span4 articles-list">
-              <h3>热门文章</h3>
-              <ul class="articles">
-                <li class="article-entry standard">
-                  <h4><a href="/detailarticle">Integrating WordPress with Your Website</a></h4>
-                  <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-                  <span class="like-count">66</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-                  <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                  <span class="like-count">15</span>
-                </li>
-                <li class="article-entry video">
-                  <h4><a href="single.html">Meta Tags in WordPress</a></h4>
-                  <span class="article-meta">23 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                  <span class="like-count">8</span>
-                </li>
-                <li class="article-entry image">
-                  <h4><a href="single.html">WordPress in Your Language</a></h4>
-                  <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-                  <span class="like-count">6</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">Know Your Sources</a></h4>
-                  <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                  <span class="like-count">2</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">Validating a Website</a></h4>
-                  <span class="article-meta">21 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                  <span class="like-count">3</span>
-                </li>
-              </ul>
-            </section>
-
-
-            <section class="span4 articles-list">
-              <h3>最新文章</h3>
-              <ul class="articles">
-                <li class="article-entry standard">
-                  <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
-                  <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-                  <span class="like-count">66</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">Using Javascript</a></h4>
-                  <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-                  <span class="like-count">18</span>
-                </li>
-                <li class="article-entry image">
-                  <h4><a href="single.html">Using Images</a></h4>
-                  <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Designing in WordPress">Designing in WordPress</a></span>
-                  <span class="like-count">7</span>
-                </li>
-                <li class="article-entry video">
-                  <h4><a href="single.html">Using Video</a></h4>
-                  <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in WordPress Plugins">WordPress Plugins</a></span>
-                  <span class="like-count">7</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-                  <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                  <span class="like-count">15</span>
-                </li>
-                <li class="article-entry standard">
-                  <h4><a href="single.html">WordPress CSS Information and Techniques</a></h4>
-                  <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Theme Development">Theme Development</a></span>
-                  <span class="like-count">1</span>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   </body>
@@ -142,6 +56,7 @@ export default {
 body {
   background-color: #fff;
 }
+
 #image1{
   width: 100px;
   height: 100px;
@@ -150,6 +65,107 @@ body {
   margin-left:40px;
   margin-top:15px !important;
 }
+.menu .image {
+  margin-top: 18px;
+}
+
+.menu .image img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.menu .author-content {
+  margin: 40px 0px 60px 0px;
+}
+
+.menu .author-content h4 {
+  margin-bottom: 0px;
+}
+
+.menu .author-content span {
+  font-size: 13px;
+  font-style: italic;
+  color: black;
+}
+
+.menu {
+  margin-top: 60px;
+}
+
+.menu  {
+  position: relative;
+  margin-top: 60px;
+}
+.menu:before,
+.menu:after {
+  content: "";
+  display: table;
+}
+
+.menu:after {
+  clear: both;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  text-align: center;
+}
+.menu {
+  left: 1%;
+  -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  height: 54vh;
+  max-height: 100vh !important;
+  max-width: 80vw !important;
+  min-width: 45px !important;
+  outline: none;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  padding: 0;
+  position: fixed !important;
+  top: -70px;
+  width: 27%;
+  will-change: transform;
+  z-index: 9999 !important;
+
+}
+
+.information {
+  margin:10px; padding: 0;
+  border: 1px solid #f2f2f2;
+  background-color: #FAFAFA;
+}
+label {
+  display:block;
+  font-weight:bold;
+  margin:5px 0;
+  color:black;
+}
+input,.form-select {
+  padding: 2px;
+  border:1px solid #eee;
+  font: normal 1em Verdana, sans-serif;
+  color:#777;
+}
+.text {
+  width:190px;
+  padding:100px;
+  margin-left:auto;
+  margin-right: auto;
+  font: normal 1em Verdana, sans-serif;
+  border:1px solid #eee;
+  height:20px;
+  display:block;
+  color:black;
+}
+
 .article-entry .like-count[data-v-a70e9a84] {
   position: absolute;
   bottom: 0px;
@@ -161,6 +177,17 @@ body {
   border-bottom: none;
   background: url("../../assets/liked.png") no-repeat 6px 8px;
 }
+.article-entry .like-count[data-v-a70e9a84] {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  line-height: 18px;
+  font-weight: 600;
+  padding: 3px 5px 3px 20px;
+  border: 1px solid #f2f2f2;
+  border-bottom: none;
+  background: url("#") no-repeat 6px 8px;
+}
 .header-wrapper {
   background-color: #3b4348;
   width: 100%;
@@ -171,7 +198,6 @@ body {
   position: relative;
   min-height: 60px;
   height: auto !important;
-  height: 60px;
   top:5px;
 }
 #bigname{
@@ -185,7 +211,7 @@ body {
 .logo-container img {
   margin-right: 10px;
 }
- .logo-container {
+.logo-container {
   width: 450px;
 }
 
@@ -270,8 +296,8 @@ span.tag-line {
 .search-area-wrapper .search-area {
   margin-top: -20px;
   padding: 50px 0;
+  height:450px;
 }
-
 h3.search-header {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -312,7 +338,7 @@ form.search-form input.search-term {
   margin-bottom: 0;
 }
 form.search-form input.search-term.loading {
-  background-image: url("../../assets/wallpaper.jpg");
+  background-image: url("../../assets/chongqinguniversity.png");
   background-repeat: no-repeat;
   background-position: 98% 50%;
 }
@@ -340,10 +366,6 @@ form.search-form input.search-btn:hover {
 }
 
 /* Page - Container --------------------------------------------------------------------------------------------------*/
-.span8 page-content{
-  background-color: #4b5760;
-}
-
 .page-container {
   width: 100%;
 }
@@ -469,9 +491,9 @@ ul.articles li.article-entry:last-child {
 .main-listing article {
   margin-bottom: 0;
 }
-  .page-container > .container {
-    padding: 40px 20px;
-  }
+.page-container > .container {
+  padding: 40px 20px;
+}
 @media (max-width: 767px) {
   /* Navigation */
   .main-nav > div {

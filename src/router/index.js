@@ -22,7 +22,7 @@ const Edit = () => import('../view/edit/edit');
 const Editcomment = () => import('../view/editcomment/editcomment');
 const Check = () =>import('../view/check/check');
 const Detailarticle = () =>import('../view/detailarticle/detailarticle');
-
+const Recommend = () =>import('../view/recommend/recommend');
 Vue.use(VueRouter);
 
 const routes = [
@@ -115,6 +115,10 @@ const routes = [
     {
         path: '/detailarticle',
         component: Detailarticle
+    },
+    {
+        path: '/recommend',
+        component: Recommend
     },
 ];
 

@@ -14,7 +14,6 @@
   </nav>
 
   <div class="header-wrapper">
-    <a href="#"><img id="image1" src="../../assets/wallpaper.jpg" alt="" /></a>
     <header>
       <div class="container">
         <div class="logo-container">
@@ -41,78 +40,84 @@
     </header>
   </div>
 
-  <div class="row separator">
-    <section class="span4 articles-list">
-      <h3>我的搜索</h3>
-      <ul class="articles">
-        <li class="article-entry standard">
-          <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
-          <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-          <span class="like-count">66</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-          <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-          <span class="like-count">15</span>
-        </li>
-        <li class="article-entry video">
-          <h4><a href="single.html">Meta Tags in WordPress</a></h4>
-          <span class="article-meta">23 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-          <span class="like-count">8</span>
-        </li>
-        <li class="article-entry image">
-          <h4><a href="single.html">WordPress in Your Language</a></h4>
-          <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-          <span class="like-count">6</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">Know Your Sources</a></h4>
-          <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-          <span class="like-count">2</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">Validating a Website</a></h4>
-          <span class="article-meta">21 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-          <span class="like-count">3</span>
-        </li>
-      </ul>
-    </section>
+  <div class="span8 page-content">
+    <!-- Basic Home Page Template -->
+    <div class="row separator">
+      <div class="twoarticle">
+        <section class="span4 articles-list">
+          <h3 id="hotarticle">热门文章</h3>
+          <ul class="articles">
+            <li class="article-entry standard">
+              <h4><a href="/detailarticle">Integrating WordPress with Your Website</a></h4>
+              <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
+              <span class="like-count">66</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">WordPress Site Maintenance</a></h4>
+              <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+              <span class="like-count">15</span>
+            </li>
+            <li class="article-entry video">
+              <h4><a href="single.html">Meta Tags in WordPress</a></h4>
+              <span class="article-meta">23 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+              <span class="like-count">8</span>
+            </li>
+            <li class="article-entry image">
+              <h4><a href="single.html">WordPress in Your Language</a></h4>
+              <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
+              <span class="like-count">6</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">Know Your Sources</a></h4>
+              <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+              <span class="like-count">2</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">Validating a Website</a></h4>
+              <span class="article-meta">21 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+              <span class="like-count">3</span>
+            </li>
+          </ul>
+        </section>
 
 
-    <section class="span4 articles-list">
-      <ul class="articles">
-        <li class="article-entry standard">
-          <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
-          <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-          <span class="like-count">66</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">Using Javascript</a></h4>
-          <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-          <span class="like-count">18</span>
-        </li>
-        <li class="article-entry image">
-          <h4><a href="single.html">Using Images</a></h4>
-          <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Designing in WordPress">Designing in WordPress</a></span>
-          <span class="like-count">7</span>
-        </li>
-        <li class="article-entry video">
-          <h4><a href="single.html">Using Video</a></h4>
-          <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in WordPress Plugins">WordPress Plugins</a></span>
-          <span class="like-count">7</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-          <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-          <span class="like-count">15</span>
-        </li>
-        <li class="article-entry standard">
-          <h4><a href="single.html">WordPress CSS Information and Techniques</a></h4>
-          <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Theme Development">Theme Development</a></span>
-          <span class="like-count">1</span>
-        </li>
-      </ul>
-    </section>
+        <section class="span4 articles-list">
+          <h3 id="newarticle">最新文章</h3>
+          <ul class="articles newarticle">
+            <li class="article-entry standard">
+              <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
+              <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
+              <span class="like-count">66</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">Using Javascript</a></h4>
+              <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
+              <span class="like-count">18</span>
+            </li>
+            <li class="article-entry image">
+              <h4><a href="single.html">Using Images</a></h4>
+              <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Designing in WordPress">Designing in WordPress</a></span>
+              <span class="like-count">7</span>
+            </li>
+            <li class="article-entry video">
+              <h4><a href="single.html">Using Video</a></h4>
+              <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in WordPress Plugins">WordPress Plugins</a></span>
+              <span class="like-count">7</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">WordPress Site Maintenance</a></h4>
+              <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
+              <span class="like-count">15</span>
+            </li>
+            <li class="article-entry standard">
+              <h4><a href="single.html">WordPress CSS Information and Techniques</a></h4>
+              <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Theme Development">Theme Development</a></span>
+              <span class="like-count">1</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
   </div>
   </body>
 </template>
@@ -124,18 +129,10 @@ export default {
 </script>
 
 <style scoped>
-#image1{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  float:left;
-  margin-left:40px;
-  margin-top:15px !important;
-}
 #sort {
-  top: 25%;
+  top: 15%;
   text-align: center;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.75);
   position: fixed;
   z-index: 100;
   height: 90%;
@@ -205,7 +202,7 @@ export default {
   z-index: -1;
 }
 .logo {
-  margin-top: 150px;
+  margin-top: 0px;
   top: 0;
   left: 0;
   z-index: 999999;
@@ -253,12 +250,12 @@ body {
   position: relative;
   min-height: 60px;
   height: auto !important;
-  height: 150px !important;
+  height: 60px;
   top:5px;
 }
 #bigname{
   color:white;
-  font-size:xx-large;
+  font-size:x-large;
   margin-left: -620px;
 }
 .logo-container {
@@ -275,7 +272,7 @@ span.tag-line {
   color: #818a90;
   font-size: 12px;
   position: relative;
-  padding-top: 2px !important;
+  top: 2px;
   left:-520px;
 }
 .main-nav {
@@ -526,7 +523,7 @@ ul.articles li.article-entry:last-child {
   padding: 3px 5px 3px 20px;
   border: 1px solid #f2f2f2;
   border-bottom: none;
-  background: url("liked.png") no-repeat 6px 8px;
+  background: url("../../assets/liked.png") no-repeat 6px 8px;
 }
 .article-entry:hover .like-count {
   background: url("../../assets/wallpaper.jpg") no-repeat 6px -22px;
