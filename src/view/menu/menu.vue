@@ -52,7 +52,7 @@
           <!-- Basic Home Page Template -->
           <div class="row separator">
             <section class="span4 articles-list">
-              <h3>Featured Articles</h3>
+              <h3>热门文章</h3>
               <ul class="articles">
                 <li class="article-entry standard">
                   <h4><a href="/detailarticle">Integrating WordPress with Your Website</a></h4>
@@ -89,7 +89,7 @@
 
 
             <section class="span4 articles-list">
-              <h3>Latest Articles</h3>
+              <h3>最新文章</h3>
               <ul class="articles">
                 <li class="article-entry standard">
                   <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
@@ -340,6 +340,10 @@ form.search-form input.search-btn:hover {
 }
 
 /* Page - Container --------------------------------------------------------------------------------------------------*/
+.span8 page-content{
+  background-color: #4b5760;
+}
+
 .page-container {
   width: 100%;
 }
