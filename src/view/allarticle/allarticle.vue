@@ -1,9 +1,6 @@
 <template>
   <body>
-  <div class="logo">
-    <h1>分类</h1>
-    <h2>E</h2>
-  </div>
+
   <nav id="sort">
     <ul>
       <li><a href="/alla"><img src="assets/images/icon-1.png" alt=""> <em>我的搜索</em></a></li>
@@ -26,6 +23,10 @@
         <!-- Start of Main Navigation -->
         <nav class="main-nav">
           <div class="menu-top-menu-container">
+            <div class="search">
+            <input class="search-term" type="text"  placeholder="search" />
+            <input class="search-btn" type="submit" value="search" />
+            </div>
             <ul id="menu-top-menu" class="clearfix">
               <li class="current-menu-item"><a href="/menu">主页</a></li>
               <li><a href="/alla">所有文章</a></li>
@@ -124,6 +125,9 @@ export default {
 </script>
 
 <style scoped>
+.search{
+
+}
 #image1{
   width: 100px;
   height: 100px;
@@ -133,16 +137,15 @@ export default {
   margin-top:15px !important;
 }
 #sort {
-  top: 25%;
+  top: 147px;
   text-align: center;
-  background: rgba(0, 0, 0, 1);
-  position: fixed;
+  background: #3b4348;
+  position: absolute;
   z-index: 100;
   height: 90%;
-  left: 0;
-  width: 15%;
-  font-weight: 300;
-  font-size: 1rem;
+  left: 16px;
+  width: 150px;
+
 }
 #sort em {
   font-style: normal;
@@ -206,13 +209,13 @@ export default {
 }
 .logo {
   margin-top: 150px;
-  top: 0;
-  left: 0;
+  top: -1px;
+  left: 16px;
   z-index: 999999;
   position: fixed;
   display: inline-block;
   text-align: center;
-  background-color: #faf5b2;
+  background-color: black;
   height: 15%;
   width: 15%;
 }
@@ -220,7 +223,7 @@ export default {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #111;
+  color: #3b4348;
   top: 50%;
   left: 50%;
   position: absolute;
